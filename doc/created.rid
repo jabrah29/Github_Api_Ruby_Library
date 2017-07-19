@@ -1,0 +1,9 @@
+Wed, 19 Jul 2017 00:10:40 -0400
+./doc/created.rid	Wed, 19 Jul 2017 00:10:40 -0400
+./lib/http/api_options.rb	Tue, 18 Jul 2017 14:17:56 -0400
+./lib/http/http_handler.rb	Wed, 19 Jul 2017 00:08:03 -0400
+./lib/http/repo_http_handler.rb	Wed, 19 Jul 2017 00:08:03 -0400
+./lib/http/uri_builder.rb	Wed, 19 Jul 2017 00:02:58 -0400
+./lib/http/user_http_handler.rb	Wed, 19 Jul 2017 00:09:17 -0400
+./lib/main.rb	Tue, 18 Jul 2017 15:10:24 -0400
+./test/user_http_handler_spec.rb	Wed, 19 Jul 2017 00:09:17 -0400

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>class UserHttpHandler - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/http/user_http_handler.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Object
+  
+</nav>
+
+    <!-- Included Modules -->
+<nav id="includes-section" class="section">
+  <h3 class="section-header">Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><a class="include" href="HttpHandler.html">HttpHandler</a>
+  
+  
+  </ul>
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-c-get_auth_token">::get_auth_token</a>
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-c-set_auth_token">::set_auth_token</a>
+    
+    <li ><a href="#method-i-get_response_status">#get_response_status</a>
+    
+    <li ><a href="#method-i-get_user_followers">#get_user_followers</a>
+    
+    <li ><a href="#method-i-search_for_user">#search_for_user</a>
+    
+    <li ><a href="#method-i-search_for_user_email">#search_for_user_email</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./doc/created_rid.html">created.rid</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./Api_options.html">Api_options</a>
+  
+    <li><a href="./Api_options/REPO.html">Api_options::REPO</a>
+  
+    <li><a href="./Api_options/USER.html">Api_options::USER</a>
+  
+    <li><a href="./HttpHandler.html">HttpHandler</a>
+  
+    <li><a href="./Main.html">Main</a>
+  
+    <li><a href="./RepoHttpHandler.html">RepoHttpHandler</a>
+  
+    <li><a href="./TestUserHandler.html">TestUserHandler</a>
+  
+    <li><a href="./UriBuilder.html">UriBuilder</a>
+  
+    <li><a href="./UserHttpHandler.html">UserHttpHandler</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class UserHttpHandler</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-get_auth_token" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_auth_token</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="get_auth_token-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">get_auth_token</span>
+  <span class="ruby-identifier">@@app_token</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_auth_token-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_auth_token-method -->
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 12</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
+  <span class="ruby-ivar">@response_status</span>=<span class="ruby-keyword">false</span>
+  <span class="ruby-ivar">@uri_builder</span>=<span class="ruby-constant">UriBuilder</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+      <div id="method-c-set_auth_token" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">set_auth_token</span><span
+            class="method-args">(token)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Set the authentication token</p>
+
+<h4 id="method-c-set_auth_token-label-Attribute">Attribute<span><a href="#method-c-set_auth_token-label-Attribute">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>token</code> -&gt; token generated that is needed to make
+authentication calls</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="set_auth_token-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 21</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">set_auth_token</span> (<span class="ruby-identifier">token</span>)
+  <span class="ruby-identifier">@@app_token</span>=<span class="ruby-identifier">token</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- set_auth_token-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- set_auth_token-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-get_response_status" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_response_status</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>returns the response status that is true if request was successful</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_response_status-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 88</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_response_status</span>
+  <span class="ruby-ivar">@response_status</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_response_status-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_response_status-method -->
+
+    
+      <div id="method-i-get_user_followers" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_user_followers</span><span
+            class="method-args">(params) { |JSON| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>get all the followers of the given user</p>
+
+<h4 id="method-i-get_user_followers-label-Attributes">Attributes<span><a href="#method-i-get_user_followers-label-Attributes">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>params</code> -&gt; optional parameters for getting followers</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="get_user_followers-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_user_followers</span>(<span class="ruby-identifier">params</span>) <span class="ruby-comment"># :yields: JSON</span>
+  <span class="ruby-identifier">uri</span>=<span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-ivar">@uri_builder</span>.<span class="ruby-identifier">get_user_contents</span>(<span class="ruby-constant">Api_options</span><span class="ruby-operator">::</span><span class="ruby-constant">USER</span><span class="ruby-operator">::</span><span class="ruby-constant">FOLLOWERS</span>,<span class="ruby-identifier">username</span><span class="ruby-value">:params</span>[<span class="ruby-value">:username</span>], <span class="ruby-identifier">token</span><span class="ruby-value">:@@app_token</span>))
+  <span class="ruby-identifier">http</span>=<span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">initiate_http</span>(<span class="ruby-identifier">uri</span>)
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">response</span>=<span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">get_response</span>(<span class="ruby-identifier">http</span>,<span class="ruby-identifier">uri</span>)
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">ArgumentError</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Request failed with code: #{response.code}&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@response_status</span>=<span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">response</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_user_followers-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_user_followers-method -->
+
+    
+      <div id="method-i-search_for_user" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">search_for_user</span><span
+            class="method-args">(params) { |JSON| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Search and retrieve user information based on search parameters</p>
+
+<h4 id="method-i-search_for_user-label-Attributes">Attributes<span><a href="#method-i-search_for_user-label-Attributes">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>params</code> -&gt; optional filters for getting users</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="search_for_user-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 50</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">search_for_user</span>(<span class="ruby-identifier">params</span>) <span class="ruby-comment"># :yields: JSON</span>
+  <span class="ruby-identifier">uri</span>=<span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-ivar">@uri_builder</span>.<span class="ruby-identifier">get_user_contents</span>(<span class="ruby-constant">Api_options</span><span class="ruby-operator">::</span><span class="ruby-constant">USER</span><span class="ruby-operator">::</span><span class="ruby-constant">SEARCH</span>, <span class="ruby-identifier">params</span>))
+  <span class="ruby-identifier">http</span>=<span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">initiate_http</span>(<span class="ruby-identifier">uri</span>)
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">response</span>=<span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">get_response</span>(<span class="ruby-identifier">http</span>,<span class="ruby-identifier">uri</span>)
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">ArgumentError</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Request failed with code: #{response.code}&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@response_status</span>=<span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">response</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- search_for_user-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- search_for_user-method -->
+
+    
+      <div id="method-i-search_for_user_email" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">search_for_user_email</span><span
+            class="method-args">(username) { |JSON| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Search for email address of user</p>
+
+<h4 id="method-i-search_for_user_email-label-Attributes">Attributes<span><a href="#method-i-search_for_user_email-label-Attributes">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>username</code> -&gt; username id to get email</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="search_for_user_email-source">
+            <pre><span class="ruby-comment"># File lib/http/user_http_handler.rb, line 68</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">search_for_user_email</span>(<span class="ruby-identifier">username</span>) <span class="ruby-comment"># :yields: JSON</span>
+  <span class="ruby-keyword">begin</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">@@app_token</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-string">&quot;Authentication not provided&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">uri</span>=<span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-ivar">@uri_builder</span>.<span class="ruby-identifier">get_user_contents</span>(<span class="ruby-constant">Api_options</span><span class="ruby-operator">::</span><span class="ruby-constant">USER</span><span class="ruby-operator">::</span><span class="ruby-constant">EMAIL</span>,<span class="ruby-identifier">username</span><span class="ruby-value">:username</span>, <span class="ruby-identifier">app_token</span><span class="ruby-value">:@@app_token</span>))
+  <span class="ruby-ivar">@uri_builder</span>=<span class="ruby-keyword">nil</span>
+  <span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">create_http</span> <span class="ruby-identifier">uri</span>
+
+  <span class="ruby-identifier">response</span>=<span class="ruby-constant">HttpHandler</span>.<span class="ruby-identifier">get_response</span>(<span class="ruby-identifier">@@http</span>,<span class="ruby-identifier">uri</span>)
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">ArgumentError</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Request failed with code: #{response.code}&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@response_status</span>=<span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">response</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- search_for_user_email-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- search_for_user_email-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
