@@ -19,5 +19,5 @@ class Main
 
 end
 
-UserHttpHandler.set_app_token ('7dcd12381249914b604a60478f970c2f7561a471')
-print RepoHttpHandler.new.get_user_repos('jabrah29')
+UserHttpHandler.set_auth_token ('c213e9f5c5d7026e4b5f1618b4c011276d35da96')
+print UserHttpHandler.new.search_for_user_email('jabrah29')

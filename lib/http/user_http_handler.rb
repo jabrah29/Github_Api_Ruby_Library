@@ -75,15 +75,13 @@ class UserHttpHandler
     end
     uri=URI.parse(@uri_builder.get_user_contents(Api_options::USER::EMAIL,username:username, app_token:@@app_token))
     @uri_builder=nil
+
     HttpHandler.create_http uri
 
     response=HttpHandler.get_response(@@http,uri)
-    rescue ArgumentError
-      puts "Request failed with code: #{response.code}"
-    else
       @response_status=true
       return response
-    end
+
   end
 
 
@@ -96,4 +94,5 @@ class UserHttpHandler
 
 
 
+  end
 end
