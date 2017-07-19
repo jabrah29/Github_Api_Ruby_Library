@@ -85,14 +85,13 @@ class UserHttpHandler
   end
 
 
+
+
+
+  end
+
   #returns the response status that is true if request was successful
   def get_response_status
     @response_status
-  end
-
-
-
-
-
   end
 end

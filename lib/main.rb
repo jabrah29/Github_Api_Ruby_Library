@@ -19,5 +19,5 @@ class Main
 
 end
 
-UserHttpHandler.set_auth_token ('c213e9f5c5d7026e4b5f1618b4c011276d35da96')
-print UserHttpHandler.new.search_for_user_email('jabrah29')
+RepoHttpHandler.set_auth_token ('41913333e0fc8c7104d3e65c840ad2488657cb4c')
+print RepoHttpHandler.new.get_user_repos('facebook')
