@@ -2,6 +2,7 @@ require 'minitest/autorun'
 require_relative '../lib/http/user_http_handler'
 require_relative '../lib/http/repo_http_handler'
 require 'benchmark'
+require 'gith'
 require 'bigdecimal/math'
 class TestUserHandler <  MiniTest::Test
 
