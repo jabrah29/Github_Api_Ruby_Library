@@ -5,11 +5,13 @@ require 'benchmark'
 require 'bigdecimal/math'
 class TestUserHandler <  MiniTest::Test
 
-  def init
-    UserHttpHandler.set_auth_token '7dcd12381249914b604a60478f970c2f7561a471'
+  def init (token)
+    UserHttpHandler.set_auth_token = token
   end
   def test_user_email
-    init
+
+   # Enter oauth token
+   init('')
    for i in 0..5 do
      user_test=UserHttpHandler.new
      user_test.search_for_user_email 'jabrah29'
@@ -19,7 +21,8 @@ class TestUserHandler <  MiniTest::Test
   end
 
   def test_get_followers
-    init
+      # Enter oauth token
+    init('')
     for i in 0..5 do
       user_test=UserHttpHandler.new
       user_test.get_user_followers username:'jabrah29'
